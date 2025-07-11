@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import {
 	INodeTypeDescription,
 } from 'n8n-workflow';

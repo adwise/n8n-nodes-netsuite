@@ -1,19 +1,16 @@
 {
-  "name": "n8n-nodes-netsuite",
+  "name": "@adwise/n8n-nodes-netsuite",
   "version": "0.7.5",
   "description": "n8n node for NetSuite using the REST API",
   "license": "MIT",
-  "homepage": "https://github.com/drudge/n8n-nodes-netsuite",
+  "homepage": "https://github.com/adwise/n8n-nodes-netsuite",
   "engines": {
     "node": ">=18.17"
   },
-  "author": {
-    "name": "Nicholas Penree",
-    "email": "nick@penree.com"
-  },
+  "author": "Adwise <support@adwise.nl>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drudge/n8n-nodes-netsuite.git"
+    "url": "git+https://github.com/adwise/n8n-nodes-netsuite.git"
   },
   "main": "index.js",
   "scripts": {
@@ -59,5 +56,8 @@
   "dependencies": {
     "@fye/netsuite-rest-api": "^2.3.1",
     "p-limit": "^3.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/adwise/n8n-nodes-netsuite/issues"
   }
 }

@@ -284,11 +284,13 @@ export class NetSuite implements INodeType {
 		const apiVersion = fns.getNodeParameter('version', itemIndex) as string;
 		const recordType = NetSuite.getRecordType(options);
 		const internalId = fns.getNodeParameter('internalId', itemIndex) as string;
+		//const params = new URLSearchParams();
+		const replace = fns.getNodeParameter('replace', itemIndex) as string;
 		const query = item ? item.json : undefined;
 		const requestData: INetSuiteRequestOptions = {
 			method: 'PATCH',
 			requestType: NetSuiteRequestType.Record,
-			path: `services/rest/record/${apiVersion}/${recordType}/${internalId}`,
+			path: `services/rest/record/${apiVersion}/${recordType}/${internalId}?replace=${replace}`,
 		};
 		if (query) requestData.query = query;
 		const response = await makeRequest(getConfig(credentials), requestData);
