@@ -172,6 +172,7 @@ export const nodeDescription: INodeTypeDescription = {
 				{ name: 'Contact', value: 'contact' },
 				{ name: 'Contact Category', value: 'contactCategory' },
 				{ name: 'Contact Role', value: 'contactRole' },
+				{ name: 'Contract Item', value: 'customrecord_dev_contractitem' },
 				{ name: 'Credit Memo', value: 'creditMemo' },
 				{ name: 'Custom Record (*)', value: 'custom' },
 				{ name: 'Customer', value: 'customer' },
