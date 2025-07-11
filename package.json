@@ -1,6 +1,6 @@
 {
   "name": "@adwise/n8n-nodes-netsuite",
-  "version": "0.7.5",
+  "version": "0.7.9",
   "description": "n8n node for NetSuite using the REST API",
   "license": "MIT",
   "homepage": "https://github.com/adwise/n8n-nodes-netsuite",
